@@ -1,0 +1,400 @@
+/* header */
+.logo{
+    width: 8%;
+}
+header ul{
+    display: flex;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.nav-item{
+    margin-right: 1.5em;
+    transition: transform 800ms;
+}
+.nav-item:hover{
+    color: orange;
+    font-weight: bold;
+    transform: scale(1.2);
+}
+.other{
+    align-self: center;
+    /* border-bottom: 2px solid; */
+    margin-left: -15em;
+    font-size: 1.5rem;
+    /* position: fixed; */
+}
+.other:hover{
+    color: orange;
+}
+nav{
+    /* margin-right:80px;  */
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style-type:none;
+    /* display: flex; */
+    /* gap: 20px; */
+    font-size: 1.5rem;
+    padding: 5px;  
+}
+li{
+    cursor: pointer;  
+    /* margin-left: 15px; */
+    display: flex;
+    align-items: center;   
+}
+
+header{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* align-items: center; */
+    padding: 10px;
+    background-color: #050404fa;
+    color:#fff;
+    width:100%;
+    position:sticky;
+    z-index: 2;
+    top:0;
+    box-shadow: 5px 5px 10px  rgb(252, 144, 4);
+}
+hr{
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+
+/* Main */
+main{
+    width: 90%;
+    margin: 0 auto;
+}
+body{
+    background-color: rgba(227, 229, 229, 0.276);
+}
+.mind{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.mind h2{
+    gap:350px;
+}
+/* arrow */
+.mind i{
+    align-self:center;
+    margin-left: 2em;
+    background-color: rgba(154, 151, 151, 0.637);
+    padding:10px;
+    border-radius: 50%;
+}
+/* Top Food selection */
+.food img{
+    width:120px;
+    height: 120px;
+    object-fit:cover;
+    object-position: center;
+    border-radius: 150%;
+}
+.txt{ text-align: center; 
+display: flex;
+align-items: center;
+justify-content: center;}
+
+
+/* Hides the scrollbar */
+::-webkit-scrollbar{ width: 0; } 
+
+/* Horizontal image scroll */
+.food{
+    display: flex;
+    gap: 29px;
+    border-radius: 10%;
+    overflow-x:auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+/* Top Res. scroll */
+
+.restaurant{
+    display: flex;   
+    overflow-x:auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    gap:30px;  
+    padding: 1em;
+}
+.res h5{
+    margin: 13em;
+    z-index: -1;
+}
+.restaurant h5{  
+    color:#fff; 
+    font-size:1.4rem;
+    font-weight:900;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+}
+.img-bri{   
+    background: url(/img/bri.jpg);
+    background-position: bottom;
+    background-size: cover;
+    border:2px solid orange;
+    border-radius: 10%;
+    position: relative;
+    height: 200px;
+    width:250px;  
+    margin-bottom: 12px;
+    transition: transform 500ms;
+}
+.img-bri:hover{ transform: scale(1.1); }
+.img-arun{   
+    background: url(/img/arun.webp); 
+    background-size:cover; 
+    object-fit: fill;
+    background-color:rgb(33, 33, 32);
+    background-blend-mode:difference;     
+    background-position:top;
+    border:2px solid orange;
+    border-radius: 10%;
+    position: relative;
+    height: 200px;
+    width:250px;
+    margin-bottom: 12px;
+    transition: transform 500ms;
+}
+.img-arun:hover { transform: scale(1.1);}
+.img-burger{
+    background: url(/img/burger.jpg);
+    background-size: cover;    
+    background-position:center;
+    border:2px solid orange;
+    border-radius: 10%;
+    position: relative;
+    height: 200px;
+    width:250px;
+    margin-bottom: 12px;
+    transition: transform 500ms;
+}
+.img-burger:hover { transform: scale(1.1);}
+.img-falooda{
+    background: url(/img/falooda.jpg);
+    background-size: cover;
+    background-position: center;
+    border:2px solid orange;
+    border-radius: 10%;
+    position: relative;
+    height: 200px;
+    width:250px;
+    margin-bottom: 12px;
+    transition: transform 500ms;
+}
+.img-falooda:hover {transform: scale(1.1); }
+.img-fries{
+    background: url(/img/ff.jpg);
+    background-position: center;
+    background-size: cover;
+    border:2px solid orange;
+    border-radius: 10%;
+    position: relative;
+    height: 200px;
+    width:250px; 
+    margin-bottom: 12px;
+    transition: transform 500ms;
+}
+.img-fries:hover { transform: scale(1.1);}
+.img-kfc{  
+    background: url(/img/kfc.jpeg);
+    background-size: cover;
+    background-position: center;
+    border:2px solid orange;
+    border-radius: 10%;
+    position: relative;
+    height: 200px;
+    width:250px;
+    margin-bottom: 12px;
+    transition: transform 500ms;
+}
+.img-kfc:hover {transform: scale(1.1); }
+.img-ice{ 
+    background: url(/img/kwality.webp);
+    background-size: cover;
+    background-position: center;
+    border:2px solid orange;
+    border-radius: 10%;
+    position: relative;
+    height: 200px;
+    width:250px;
+    background-color:rgb(184, 171, 148);
+    background-blend-mode:darken;
+    margin-bottom: 12px;
+    transition: transform 500ms;
+}
+.img-ice:hover { transform: scale(1.1);}
+.img-pizza{   
+    background: url(pizza2.png);  
+    background-size: cover;
+    background-position: center;
+    border:2px solid orange;
+    border-radius: 10%;
+    position: relative;
+    height: 200px;
+    width:250px;
+    margin-bottom: 12px;
+    transition: transform 500ms;
+}
+.img-pizza:hover{ transform: scale(1.1);}
+
+/* Grid */
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.box button {
+    font-weight: 500;
+    font-size: .80rem;
+    border: 2px solid rgba(72, 56, 56, 0.482);
+    border-radius: 100px;
+    padding: 10px;
+    margin-bottom: 1em;
+    flex: 1 1 100px;
+    /* Adjusts the button size */
+}
+.imge{
+    width: 270px;
+    height: 250px;
+    object-fit: cover;
+    border:2px solid orange;
+    border-radius: 20%;
+}
+.second {
+    display: grid;
+    grid-template: 
+        "head head head head"
+        "button button button button"
+        "card1 card2 card3 card4"
+        "card5 card6 card7 card8";
+    gap: 20px; 
+    padding: 20px;
+    width: 90%; 
+}
+.second h2 {
+    grid-area: head;
+    margin: 0;
+}
+.box {
+    grid-area: button;
+}
+
+/* Define each card area */
+.a { grid-area: card1; }
+.b { grid-area: card2; }
+.c { grid-area: card3; }
+.d { grid-area: card4; }
+.e { grid-area: card5; }
+.f { grid-area: card6; }
+.g { grid-area: card7; }
+.h { grid-area: card8; }
+
+
+.last{
+    display: flex;
+    /* gap:100px; */
+    justify-content:space-around;
+    margin-top: 40px;
+    font-size: 2rem;
+    background-color: #c7c5c5f3;
+    color: rgb(61, 60, 60);
+    margin-top: 2.5em;
+    /* margin-right:10em; */
+    margin: 0;
+    padding: 10px;
+}
+.last h2{
+ align-self: center;
+}
+.apple{
+    width:140px;
+    height:65px ;
+}
+.app{
+    width: 140px;
+    height: 65px;
+}
+
+/* Footer */
+footer{
+    background-color: black;
+    color: white;
+    margin: 0;
+    /* padding-left: 50px; */
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.swig{
+    letter-spacing: 3px;
+}
+.company h3{
+    font-size: 1.5rem;
+}
+.deliver h3{
+    font-size: 1.5rem;
+}
+.deliver p{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+.company p{
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+/* Media query */
+@media(max-width:680px){
+    
+    ul{
+        flex-direction: column;
+    }
+    header{
+        margin: 0 auto;
+    }
+    .other{
+        margin-left: 1px;
+    }
+    .logo{
+        width: 10vw;
+        /* padding-left: 80px; */
+    }
+    .mind h2{
+        margin-right: 5em;
+    }
+    
+    .second {
+        /* margin:0 1em; */
+        /* display: grid; */
+        grid-template: 
+        "head head"
+        "button button"
+        "card1 card2"    
+        "card3 card4"
+        "card5 card6"
+        "card7 card8"
+       ;
+        }
+        
+.container {
+    flex-direction: column;
+    text-align: center;
+}
+       
+}
