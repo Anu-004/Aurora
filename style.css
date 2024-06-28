@@ -1,6 +1,7 @@
 /* header */
 .logo{
     width: 8%;
+    border-radius: 250px;
 }
 header ul{
     display: flex;
@@ -21,8 +22,8 @@ a{
 .other{
     align-self: center;
     /* border-bottom: 2px solid; */
-    margin-left: -6em;
-    font-size: 1.5rem;
+    margin-left: -8em;
+    font-size: 1.3rem;
     /* position: fixed; */
 }
 .other:hover{
@@ -309,13 +310,10 @@ justify-content: center;}
     display: flex;
     /* gap:100px; */
     justify-content:space-around;
-    margin-top: 40px;
+    margin-top: 85px;
     font-size: 2rem;
     background-color: #c7c5c5f3;
     color: rgb(61, 60, 60);
-    margin-top: 2.5em;
-    /* margin-right:10em; */
-    margin: 0;
     padding: 10px;
 }
 .last h2{
@@ -346,18 +344,18 @@ footer{
     letter-spacing: 3px;
 }
 .company h3{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 .deliver h3{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
 }
 .deliver p{
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 .company p{
     font-weight: 400;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 /* Media query */
 @media(max-width:680px){
