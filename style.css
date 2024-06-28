@@ -21,7 +21,7 @@ a{
 .other{
     align-self: center;
     /* border-bottom: 2px solid; */
-    margin-left: -15em;
+    margin-left: -6em;
     font-size: 1.5rem;
     /* position: fixed; */
 }
@@ -37,7 +37,7 @@ ul{
     list-style-type:none;
     /* display: flex; */
     /* gap: 20px; */
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     padding: 5px;  
 }
 li{
@@ -238,7 +238,7 @@ justify-content: center;}
 }
 .img-ice:hover { transform: scale(1.1);}
 .img-pizza{   
-    background: url(pizza2.png);  
+    background: url(/img/pizza2.png);  
     background-size: cover;
     background-position: center;
     border:2px solid orange;
