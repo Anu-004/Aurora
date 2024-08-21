@@ -1,6 +1,6 @@
 /* header */
 .logo{
-    width: 8%;
+    width: 5%;
     border-radius: 250px;
 }
 header ul{
@@ -68,7 +68,7 @@ hr{
 
 /* Main */
 main{
-    width: 90%;
+    width: 99%;
     margin: 0 auto;
 }
 body{
